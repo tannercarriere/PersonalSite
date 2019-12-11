@@ -15,4 +15,7 @@
   
   Publishing the website
   
+## Photo Credits
+  Header: https://www.pexels.com/photo/business-code-coding-computer-270360/
+  
   
