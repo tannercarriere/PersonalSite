@@ -10,11 +10,6 @@
   
   Using CSS to turn the website into something visually pleasing to look at.
   
-  ### Working Towards
-  Using JavaScript in some capcity
-  
-  Publishing the website
-  
 ## Photo Credits
   Header: https://www.pexels.com/photo/business-code-coding-computer-270360/
   
