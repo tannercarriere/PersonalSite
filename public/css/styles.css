@@ -1,0 +1,315 @@
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(119, 119, 119);
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: gold;
+}
+h3{
+    color: lightgray;
+}
+
+.nav-bar{
+    padding: 0px 20px 10px 30px;
+    margin: 2px;
+}
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-right:10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+header{
+    background: black;
+    background-size: 100%;
+    padding: 30px;
+    height: 80px;
+    text-align: center;
+}
+
+.nav-bar-two ul{
+    list-style-type: none;
+}
+.nav-bar-two{
+    margin-left: 31%;
+}
+
+.nav-bar-two li:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid black;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+.nav-bar-two li {
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 104px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+}
+
+.nav-bar-two li:after {
+    content: "";
+    width: 0; height: 0;
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+    border-top: 30px solid black;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.nav-bar-two li:hover{
+    top: -5px;
+}
+
+@media screen and (max-width: 880px){
+    .nav-bar-two{
+        padding-top: 0px;
+        margin-left: 31%;
+    }
+    .nav-bar-two li{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+}
+@media screen and (max-width: 837px){
+    .nav-bar-two{
+        padding-top: 0px;
+        margin-left: 31%;
+    }
+    .nav-bar-two li{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+@media screen and (max-width: 793px){
+    .nav-bar-two{
+        padding-top: 0px;
+        margin-left: 31%;
+    }
+    .nav-bar-two li{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width: 750px){
+    .nav-bar-two{
+        padding-top: 0px;
+        margin-left: 25%;
+    }
+    .nav-bar-two li{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 651px){
+    .nav-bar-two{
+        padding-top: 0px;
+        margin-left: 5%;
+    }
+    .nav-bar-two li{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+section{
+    margin:5px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: gold;
+}
+a:link{
+    color: white;
+
+}
+img.name{
+    display: inline-block;
+    color: black;
+    font-size: 0px;
+    padding-left: 25%;
+    padding-bottom: -80px;
+    margin-bottom: -80px;
+}
+@media screen and (max-width: 746px){
+    img.name{
+        padding-left: 1%;
+    }
+}
+h3.about{
+    font-size: 35px;
+    color: goldenrod;
+    display: inline;
+    padding-left: 35%;
+    padding-top: 0px;
+}
+@media screen and (max-width: 1091px){
+    h3.about{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 937px){
+    h3.about{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 783px){
+    h3.about{
+        margin-left: 0%;
+        padding-left: 30%;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 727px){
+    h3.about{
+        margin-left: 0%;
+        padding-left: 30%;
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 727px){
+    h3.about{
+        margin-left: 0%;
+        padding-left: 30%;
+        font-size: 21px;
+    }
+}
+@media screen and (max-width: 651px){
+    h3.about{
+        padding-left: 7%;
+    }
+}
+footer{
+    background: black;
+    bottom: 0px;
+    color: gold;
+    float: left;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+div.info{
+    text-align: center;
+    padding-top: 20px;
+}
+/* Resume */
+.resume{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.resume ul.resume-list{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline;
+}
+.resume-list li:before {
+    content: " ";
+    width: 0; height: 160;
+    border-bottom: 30px solid black;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+
+.resume-list li {
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-right: 0px;
+    width: 104px;
+    height: 60px;
+    background-color: black;
+    position: relative;
+}
+
+.resume-list li:after {
+    content: "";
+    width: 0; height: 160;
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+    border-top: 30px solid black;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+.resume h3{
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.resume h4{
+    color: gold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 100px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.resume h5{
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 110px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.resume ul.skills{
+    margin-left: 110px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.resume p{
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+section.resume{
+    text-align: justify;
+    text-justify: newspaper;
+    margin-left: 30px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+

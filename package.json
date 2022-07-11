@@ -1,0 +1,23 @@
+{
+  "name": "personalSite",
+  "version": "1.0.0",
+  "description": "Steps needed:\r   1. Use server side processing to update my resume onload\r   2. Redesign website to better show off projects I've created in action. (E.G. Character generator running as a serverside program)\r   3. Re-do look of website to fall inline with my current likes for look",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tannercarriere/personalSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tannercarriere/personalSite/issues"
+  },
+  "homepage": "https://github.com/tannercarriere/personalSite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
