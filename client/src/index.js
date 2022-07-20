@@ -22,11 +22,24 @@ class Content extends React.Component{
       author: '',
       publish_date: '',
       edit_data:'',
-      content:''
+      content:'',
+      apiResponse: ''
     }
   }
+  
+  callAPI() {
+    fetch("http://localhost:9000/testAPI")
+        .then(res => res.text())
+        .then(res => this.setState({ apiResponse: res }))
+        .catch(err => err);
+  }
+
+  componentDidMount() {
+    this.callAPI();
+  }
+  
   render(){
-    const edit = () =>{
+    const edit = () => {
       return this.state.edit_data ? <div className='edit_data'>Edited on:{this.state.edit_data}</div> : '';
     }
     return (
@@ -36,6 +49,9 @@ class Content extends React.Component{
           <div className='author'>By: {this.state.author}</div>
           <div className='publish_date'>On: {this.state.publish_date}</div>
           {edit()}
+        </div>
+        <div className='content'>
+          here: {this.state.apiResponse}
         </div>
       </div>
     );
